@@ -1,0 +1,14 @@
+{
+    "accounts": [
+        {
+            "name":"Siva",
+            "api_key": "cjlmyc5khaomp70r",
+            "api_secret": "u80no5yl0nl3gxqiff43mr0wwuimunl0"
+        },
+        {
+            "name":"Nikhil",
+            "api_key": "coaymtalqrc6jbma",
+            "api_secret": "gpf8dw4sa8ppvntyr14j3t30df5lgarc"
+        }
+    ]
+}

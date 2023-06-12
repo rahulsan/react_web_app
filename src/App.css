@@ -1,0 +1,49 @@
+.main-container{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.input-form{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: fit-content;
+  height:350px;
+  margin-top: 30px;
+}
+
+.order-card{
+  display:flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  width:500px;
+  height:350px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.button-width{
+  width:200px;
+}
+
+.order-line{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  width:600px;
+}
+
+.custom_selector{
+  width: 400px;
+}
+.custom_input{
+  width: 150px;
+}
+
+.table th {
+  font-size: 15px;
+}
