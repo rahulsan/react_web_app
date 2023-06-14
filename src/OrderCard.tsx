@@ -8,7 +8,7 @@ function OrderCard() {
     <div className="order-card bg-body-tertiary">
       <h4 className="text-primary">Pending orders</h4>
       <table className="table table-bordered">
-        <thead>
+        {/* <thead>
           <tr>
             <th scope="col">#</th>
             <th scope="col">Instrument</th>
@@ -17,16 +17,19 @@ function OrderCard() {
             <th scope="col">Strike Price</th>
             <th scope="col">Number of lots</th>
           </tr>
-        </thead>
+        </thead> */}
         <tbody>
           {orders.map((order, index) => (
             <tr key={index}>
               <th scope="row">{index + 1}</th>
               <td>{order.instrumentType}</td>
               <td>{order.optionType}</td>
-              <td>{order.transactionType}</td>
               <td>{order.strikePrice}</td>
-              <td>{order.numberOfLots}</td>
+              <td>
+                {order.transactionType === "buy"
+                  ? order.numberOfLots
+                  : -order.numberOfLots}
+              </td>
               <td onClick={() => removeOrder(index)}>Delete</td>
             </tr>
           ))}

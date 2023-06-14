@@ -7,9 +7,9 @@
 .input-form{
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
-  width: fit-content;
+  width:600px;
   height:350px;
   margin-top: 30px;
 }
@@ -42,8 +42,4 @@
 }
 .custom_input{
   width: 150px;
-}
-
-.table th {
-  font-size: 15px;
 }

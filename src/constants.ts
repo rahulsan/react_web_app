@@ -3,3 +3,8 @@ export enum Instruments {
     BANKNIFTY = "BANKNIFTY",
     FINNIFTY= "FINNIFTY"
 }
+
+export enum Strategies {
+    STRANGLE = "STRANGLE",
+    CUSTOM = "CUSTOM"
+}
